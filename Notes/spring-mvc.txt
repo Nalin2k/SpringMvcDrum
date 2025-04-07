@@ -1,0 +1,20 @@
+1st--> add two more dependencies for java based config {
+
+<!--https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>6.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+}
+
+
+
+2nd--> create a new config package and create a class Named Spring config (for servlet.xml replacement).
+3rd--> Create one more class in the same package named as WebConfig (for web.xml replacement)
