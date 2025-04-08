@@ -5,21 +5,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Controller
-@RequestMapping("/v1")
-public class WelcomeController {
+@RequestMapping("/v2/")
+public class NewController {
 	 
 	
 	@RequestMapping("/")
 	public String getResponse() 
 	{
-		System.out.println("WelcomeController.getResponse()");
-		return "hello";
+		System.out.println("NewController.getResponse()");
+		return "welcome";
 	}
 	
 	@RequestMapping("/login")
 	public String loginRequest() 
 	{
-		System.out.println("WelcomeController.loginRequest()");
+		System.out.println("NewController.loginRequest()");
 		return "profile";
 	}
 	
