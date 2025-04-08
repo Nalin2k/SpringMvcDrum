@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Nalin Project</title>
+<title>USER PROFILE PAGE</title>
 </head>
-<body bgcolor="darkorange" style="color:white">
-	<h1>Welcome this is my first SPRING MVC PROJECT</h1>
+<body bgcolor="blue">
+	<h1>Welcome to the new ERA of DRUM</h1>
 </body>
 </html>

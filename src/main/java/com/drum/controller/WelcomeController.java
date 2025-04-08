@@ -15,4 +15,12 @@ public class WelcomeController {
 		return "hello";
 	}
 	
+	@RequestMapping("/login")
+	public String loginRequest() 
+	{
+		System.out.println("WelcomeController.loginRequest()");
+		return "profile";
+	}
+	
+	
 }
